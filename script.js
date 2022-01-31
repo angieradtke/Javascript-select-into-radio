@@ -1,12 +1,11 @@
 
   document.addEventListener("DOMContentLoaded", function() {
 
-
 	  select=document.getElementById('payment_interval');
 	  const options = Array.from(select.options);
 
 	  options.forEach((option, i) => {
-      let radio = document.createElement('input');
+          let radio = document.createElement('input');
 		  radio.setAttribute('type', 'radio');
 		  radio.setAttribute('name', 'payment[interval]');
 		  radio.setAttribute('value', option.value);
