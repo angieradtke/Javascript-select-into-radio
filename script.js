@@ -16,4 +16,5 @@ function convertSelectinRadio(selectid,selectname)
 		select.after(label);
 
 	});
+		select.style.display='none';
 }
